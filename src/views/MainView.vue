@@ -1,6 +1,6 @@
 <template>
   <main class="flex flex-col h-screen p-8">
-    <TableHeader title="SWAPI Table" placeholder="Search by name..." :searchTerm="searchTerm" @update:search="handleSearch" />
+    <TableHeader title="SWAPI Dashboard" placeholder="Search by name..." :searchTerm="searchTerm" @update:search="handleSearch" />
     <div class="flex-grow">
         <UsersTable :users="filteredUsers" />
     </div>
