@@ -2,6 +2,9 @@
 ## Introduction
 This project is a implementation of a one-page application showcasing an interactive list of Star Wars characters and detailed information about their home planets from SWAPI. Project aims showcases a scalable architecture, reusable components, and a unified design system.
 
+## Live Demo
+Explore the live version of the project [here](https://swapidashboard.vercel.app).
+
 ## Tech Stack
 - **Vue.js**
 - **Vuex & Vue Router**: State management and routing solutions.
@@ -36,9 +39,4 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
